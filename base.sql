@@ -1,3 +1,12 @@
+-- phpMyAdmin SQL Dump
+-- version 4.2.8.1
+-- http://www.phpmyadmin.net
+--
+-- Хост: localhost
+-- Время создания: Дек 30 2014 г., 14:59
+-- Версия сервера: 5.5.34-32.0-log
+-- Версия PHP: 5.4.23
+
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
@@ -8,19 +17,11 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 
-CREATE TABLE IF NOT EXISTS `clients` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `firstname` longtext NOT NULL,
-  `secondname` longtext NOT NULL,
-  `city` text NOT NULL,
-  `birthdate` text NOT NULL,
-  `country` text NOT NULL,
-  `sex` int(5) NOT NULL,
-  `chatid` text NOT NULL,
-  `vkid` int(50) NOT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
-
+--
+-- AUTO_INCREMENT для таблицы `users`
+--
+ALTER TABLE `users`
+MODIFY `id` int(10) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=2;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
