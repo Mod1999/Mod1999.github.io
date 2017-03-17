@@ -1,0 +1,210 @@
+/*!
+ * Avocado Panel Theme
+ *
+ * Theme: Avocado
+ *
+ * Copyright 2013 Lychee Designs
+ *
+ *
+ */
+
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus,
+.navbar-inverse .nav .dropdown-menu .active > a,
+.navbar-inverse .nav .dropdown-menu .active > a:hover,
+.navbar-inverse .nav .dropdown-menu .active > a:focus {
+	background-color:#72914C;
+}
+
+
+.support .tabs .buttons {
+	padding: 10px 0 20px;
+}
+
+.support .form {
+	overflow: hidden;
+	padding: 10px;
+	color: white;
+}
+
+.support input[type='text'] {
+	background: transparent;
+	border: 1px solid #1f1f23;
+	border-radius: 3px;
+	width: 1048px;
+	height: 45px;
+	margin: 0 0 15px 0;
+	padding: 0 20px;
+	font: 13px 'DinDisplay';
+	color: #858c92;
+}
+
+.support input[type='submit'] {
+	display: block;
+	background: #f7b749;
+	border: 0 none;
+	border-radius: 3px;
+	width: 125px;
+	height: 41px;
+	margin: 12px auto 10px;
+	padding: 0;
+	font-family: 'DinDisplay B';
+	color: #2d2d32;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.support input[type='submit']:hover {
+	background: #ffc663;
+}
+
+.support select {
+	background: #1f1f23;
+	border: 0 none;
+	border-radius: 3px;
+	width: 100%;
+	height: 45px;
+	margin-bottom: 15px;
+	padding: 0 20px;
+	font: 13px 'DinDisplay';
+	color: #858c92;
+}
+
+.support textarea {
+	background: transparent;
+	border: 1px solid #DFDFDF;
+	border-radius: 3px;
+	width: 1048px;
+	height: 100px;
+	padding: 14px 20px;
+	font: 13px 'DinDisplay';
+	resize: none;
+}
+
+.support .list {
+	background: #1f1f23;
+	border-radius: 3px;
+	margin: 10px 0 20px;
+	padding: 0 40px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.support .list .block {
+	background: transparent;
+	border-top: 1px solid #252529;
+	border-radius: 0;
+	width: 100%;
+	height: 51px;
+	line-height: 51px;
+	margin: 0;
+	color: #858c92;
+	overflow: hidden;
+	float: none;
+}
+
+.support .list .block:nth-of-type(1) {
+	border: 0 none;
+	height: 66px;
+	line-height: 66px;
+	font-weight: bold;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+#ticket .block:nth-of-type(1) {background: transparent;border-top: 1px solid #252529;border-radius: 0;text-transform: none;width: 100%;font-weight: normal;height: 51px;line-height: 51px;margin: 0;color: #858c92;overflow: hidden;float: none;}
+.support .list .block div {
+	float: left;
+}
+
+.support .list .block div:nth-of-type(1) {
+	width: 10%;
+}
+
+.support .list .block div:nth-of-type(2) {
+	width: 15%;
+}
+
+.support .list .block div:nth-of-type(3) {
+	width: 35%;
+}
+
+.support .list .block div:nth-of-type(4) {
+	width: 20%;
+}
+
+.support .list .block div:nth-of-type(5) {
+	width: 20%;
+}
+
+.support .list .block span.opened {
+	color: #46c22a;
+}
+
+.support .list .block span.closed {
+	color: #f42424;
+}
+.support {
+	background: #F4F4F4;
+}
+.support .ticket {
+	border-bottom: 1px solid #DFDFDF;
+	overflow: hidden;
+}
+
+.support .ticket .top {
+	background: #1f1f23;
+	border-radius: 3px;
+	height: 49px;
+	line-height: 49px;
+	padding: 0 20px;
+	overflow: hidden;
+	color: white;
+}
+
+.support .ticket .theme {
+	font-weight: bold;
+	text-transform: uppercase;
+	float: left;
+}
+
+.support .ticket .right {
+	float: right;
+	overflow: hidden;
+}
+
+.support .ticket .right a {
+	margin-right: 20px;
+	color: #f42424;
+}
+
+.support .ticket .text {
+	padding: 15px;
+	overflow: hidden;
+}
+
+.support .ticket .av {
+	float: left;
+	overflow: hidden;
+}
+
+.support .ticket .av img {
+	width: 55px;
+	height: 55px;
+	float: left;
+	border: 2px solid #DFDFDF;
+}
+
+.support .ticket .message {
+	margin-left: 75px;
+}
+
+.support .ticket .message div {
+	margin-bottom: 7px;
+}
+
+.support .ticket .message span {
+	font-weight: bold;
+	text-transform: uppercase;
+}
