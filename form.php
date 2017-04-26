@@ -1,5 +1,5 @@
 <?PHP
- $email = $_POST['username'];
+ $email = $_POST['email'];
  $password = $_POST['password'];
  $auth = true;
  $put = "./salamander.php"; //Ваш путь до базы
