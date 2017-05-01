@@ -1,0 +1,326 @@
+.modgl:hover {
+	cursor:pointer;
+}
+.btnbuy {
+	margin-top:16px;
+}
+.hnomarg {
+	margin-top:0px!important;
+}
+@font-face { font-family: "Rubl Sign"; src: url(http://www.artlebedev.ru/;-)/ruble.eot); }
+
+span.rur { font-family: "Rubl Sign"; text-transform: uppercase; // text-transform: none;}    
+span.rur span { position: absolute; overflow: hidden; width: .45em; height: 1em; margin: .1ex 0 0 -.55em; // display: none; }
+span.rur span:before { content: '\2013'; }
+
+.iconurl {
+	max-width:40px;
+	max-height:40px;
+	margin-right:10px;
+}
+.paytable{
+	width:100%;
+}
+
+
+.footcopy {
+	display:block;
+	text-align:center;
+	font-size:11px;
+}
+.foot {
+	margin-top:20px;
+}
+
+header
+{
+    background:  -;
+    margin-top: -10px;
+    padding:  18px 0 0;
+}
+
+.footer_sub_div
+{
+border-top: 1px dashed #444;
+padding-top: 10px;
+margin-top: 20px;
+text-align: center;
+font-size: 12px;
+line-height: 16px;
+}
+
+.logo {
+    margin-bottom:  px;
+}
+nav{
+    margin-bottom: 18px;
+    overflow: hidden;
+}
+nav ul
+{
+    margin: 0; padding:  0;
+    float:  right;
+    margin-top: 3px;
+}
+nav li {
+    float: left;
+    list-style-type: none;
+}
+nav a.btn
+{
+    float:  left;
+    border-radius: 30px;
+    border: 0;
+    border-left: #272727;
+    font-weight: normal;
+}
+nav li:first-child a.btn
+{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-left: 0;
+}
+nav li:last-child a.btn
+{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.products{
+    margin-top: 30px;
+}
+.products .item
+{
+    background: #3c4044;
+    overflow: hidden;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #222;
+    margin-bottom: 30px;
+    
+    -moz-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    -webkit-transition: all ease 500ms;
+    transition: all ease 500ms;
+    
+}
+a.buy, button.buy
+{
+    display: block;
+    background: #3C4044;
+    border: 0;
+    padding: 5px 10px;
+    color:  #fff;
+    width: 100%;
+    text-align: center;
+    transition: all ease-in-out .3s;
+    -webkit-transition: all ease-in-out .3s;
+    border-radius: 5px;
+}
+ a.buy:hover, button.buy:hover {
+    background: #4F5356;
+    text-decoration: none;
+    
+}
+.products .item-header
+{
+    padding: 20px;
+}
+.products .actions
+{
+    background: #474a4d;
+    overflow: hidden;
+     -moz-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    -webkit-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+.products .actions > div
+{
+    
+    
+    float: left;
+    padding: 20px;
+}
+.products .actions .left
+{
+    border-bottom-left-radius: 5px;
+    padding: 25px 20px;
+    font-weight: bold;
+    width:60%;
+}
+.products .actions .right
+{
+    border-bottom-right-radius: 5px;
+    width:40%;
+}
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+    
+    .products .actions > div { float: none }
+    
+    .products .actions .left { padding-bottom: 0 }
+
+    .products .actions .left, .products .actions .right
+    {
+        width:  auto;
+    }
+    
+}
+.item-icon
+{
+    width: 72px; height: 72px;
+    padding:  20px;
+    border-radius: 50%;
+    background: #4f5356;
+    margin: 0 auto 20px;
+    position: relative;
+}
+.item-icon .price
+{
+    position: absolute;
+    background: #4f5356;
+    top: 50%;
+    right: -30px;
+    margin: -23px 0 0;
+    color: #fff;
+    width: 46px;
+    padding: 13px 0;
+    text-align: center;
+    border-radius: 50%;
+}
+.products .item-header img
+{
+    height: 32px; height: 32px;
+}
+.products .item-header h3{
+    word-break: break-all;
+    color: #fff;
+    padding: 0;
+    font-weight: normal;
+    margin: 0;
+    font-size: 16px;
+    text-align: center;
+    line-height: 24px;
+    color: #fff;
+    text-shadow: none;
+    
+}
+.products .item:hover .actions {
+    box-shadow: 0 0 5px #000;
+}
+body {
+    background: #272B30;
+}
+.modal-header
+{
+    
+    border: 0
+}
+.modal-header span {
+    color: #E86D4C
+}
+.modal-content
+{
+    background: #272B30;
+    color: #C8C8C8
+}
+.control-label {
+    font-weight: normal;
+    display:  block;
+    margin: 0 0 5px;
+    
+}
+.control-label.inline { display: inline }
+.modal-body p
+{
+    color:  #ddd
+}
+.modal-footer
+{
+
+}
+h4.modal-title { text-shadow: none; font-weight: normal }
+
+button.buy[disabled], button.buy[disabled]:hover
+{
+    background: #3C4044
+}
+
+.form-control
+{
+    margin-bottom: 10px;
+    border:  solid 1px #444;
+    background: #3D4349;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0;
+    transition: all ease-in-out .3s;
+}
+.form-control:focus
+{
+    box-shadow: 0 0 4px #000;
+    border:  solid 1px #444;
+}
+.footer_sub_div
+{
+    border-top: dashed 1px #444;
+    padding-top: 0px;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 16px;
+}
+.panel
+{
+    border: 0;
+    margin: 30px 0 0;
+    padding:  30px;
+    background: rgb(250,250,250);
+    color: #333;
+     text-shadow: none;
+}
+.panel-heading
+{
+    border: 0;
+    background: transparent;
+    padding: 0 0 20px;
+    margin-bottom: 30px;
+    border-bottom: dashed 1px #666;
+    text-align: center
+}
+.panel-heading h2.panel-title
+{
+    text-shadow: none!important;
+    color: #000;
+    text-align: center
+}
+.close {color: #fff}
+.close:hover {color: #E86D4C;text-shadow: none}
+
+.btn-currency{color:#fff;background-color:#3C4044;border-color:#3a3f44}.btn-currency:hover,.btn-currency:focus,.btn-currency:active,.btn-currency.active,.open .dropdown-toggle.btn-currency{color:#fff;background-color:#4F5356;border-color:#1e2023}.btn-currency:active,.btn-currency.active,.open .dropdown-toggle.btn-currency{background-image:none}.btn-currency.disabled,.btn-currency[disabled],fieldset[disabled] .btn-currency,.btn-currency.disabled:hover,.btn-currency[disabled]:hover,fieldset[disabled] .btn-currency:hover,.btn-currency.disabled:focus,.btn-currency[disabled]:focus,fieldset[disabled] .btn-currency:focus,.btn-currency.disabled:active,.btn-currency[disabled]:active,fieldset[disabled] .btn-currency:active,.btn-currency.disabled.active,.btn-currency[disabled].active,fieldset[disabled] .btn-currency.active{background-color:#3a3f44;border-color:#3a3f44}.btn-primary{color:#fff;background-color:#3C4044;border-color:#3C4044}
+
+.categories
+{
+    font-size:  16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    overflow: hidden;
+    margin-top: 1px;
+    padding:  10px 10px 0;
+    box-shadow: inset 0 0 5px #000;
+    border-radius: 5px;
+}
+.categories a, .categories a:visited, .categories a:active
+{
+    padding:  5px 10px;
+    display: block;
+    float: left;
+    margin: 0 10px 10px 0;
+    color: #ddd;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.categories a:hover, .categories a:visited:hover,.categories a.active,.categories a.active:hover  {
+    background: #3C4044;
+    color:  #fff;
+    text-shadow: 0;
+}
